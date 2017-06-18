@@ -57,4 +57,17 @@
     opacity: 0.75;
   }
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:white;
+}
 
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #1cb5e0;
+    }
+}
+
+#main-nav-collapse {
+    text-align: right;
+}

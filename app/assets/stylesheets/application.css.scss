@@ -63,7 +63,7 @@
 
 .navbar-default .navbar-toggle {
     border: 2px solid white;
-    &:hover, &:focus {
+    &:hover, &:focus { //nested with sass
         background-color: #1cb5e0;
     }
 }
